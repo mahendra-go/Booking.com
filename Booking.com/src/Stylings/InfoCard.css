@@ -1,0 +1,119 @@
+.trip{
+  background-color: white;
+  font-size: 17px;
+  border: solid;
+  border-width: 4px;
+  border-color: #ffb700;
+  display: flex;
+  align-items: center;
+  padding-bottom: -50px;
+  height: 50px;
+  border-top: none;
+}
+.from{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  border: solid;  
+  border-right-width: 4px;
+  border-color: #ffb700;
+  height: 56px;
+  border-top: none;
+  border-right: none;
+}
+.departureImg{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 4px;
+}
+.doubleArrow{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+
+}
+.doubleArrowImg{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  border: solid;  
+  border-right-width: 4px;
+  border-color: #ffb700;
+  height: 56px;
+  border-top: none;
+  border-right: none;
+}
+.date{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  border: solid;  
+  border-right-width: 4px;
+  border-color: #ffb700;
+  height: 56px;
+  border-top: none;
+  border-right: none;
+}
+.calendarImg{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.travel{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  border: solid;  
+  border-right-width: 4px;
+  border-color: #ffb700;
+  height: 56px;
+  width: 170px;
+  border-top: none;
+}
+.travelImg{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.searchDiv{
+  /* flex: 1; */
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  height: 51px;
+  width: 110px;
+  border: solid;  
+  border-width: 4px;
+  border-color: #ffb700;
+  background-color: #006ce4;
+  justify-content: center;
+  cursor: pointer;
+  border-left: none;
+}
+
+.searchBtn{
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  font-family:BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  
+}
+.searchDiv:hover{
+  background-color: #2377d7;
+}
+.remove{
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  border: solid;  
+  border-right-width: 4px;
+  border-color: #ffb700;
+  height: 56px;
+  border-top: none;
+  border-right: none;
+}

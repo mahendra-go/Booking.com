@@ -11,6 +11,8 @@ import five from "./assets/5.svg";
 import six from "./assets/6.svg";
 import AutoResizeSelect from "./Components/AutoResizeSelect";
 import PassengerDropdown from "./Components/PassengerDropdown";
+import TripInfo from "./Components/TripInfo";
+import TripInfo2 from "./Components/TripInfo2";
 
 export default function App() {
 
@@ -90,8 +92,17 @@ export default function App() {
               <input type="radio" name="option" value="multiCity" onChange={handleChange} />
               Multi-city
             </label>
+            
             <AutoResizeSelect />
-            <PassengerDropdown/>
+            {
+              tripType==="multiCity"?<PassengerDropdown/>:
+              <label className="flightType"><input className="flightTypeCheckBox" type="checkbox"/>Direct flights only</label>
+            }
+          </div>
+          <div className="searchBarBottom">
+            {tripType==="multiCity" ? <TripInfo2/> :
+            <TripInfo tripType={tripType}/>
+            }
           </div>
         </div>
       </div>

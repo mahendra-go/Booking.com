@@ -105,3 +105,12 @@ input[type="radio"]{
   height: 18px;
   margin-right: 7px;
 }
+.flightType{
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.flightTypeCheckBox{
+  height: 17px;
+  width: 17px;
+}
