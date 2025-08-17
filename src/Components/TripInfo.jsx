@@ -6,7 +6,7 @@ import doubleArrow from '../assets/doublearrows.svg'
 import calender from '../assets/calender.svg'
 import travel from '../assets/travel.svg'
 import CustomDropdown from './CustomDropdown'
-import DatePicker from './Datepicker'
+import DatePicker from './DatePicker'
 import PassengerDropdown2 from './PassengerDropDown2'
 import DoubleDatePicker from './DoubleDatePicker'
 
