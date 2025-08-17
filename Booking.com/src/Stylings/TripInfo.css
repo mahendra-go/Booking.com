@@ -39,6 +39,7 @@
   border-right-width: 4px;
   border-color: #ffb700;
   height: 56px;
+  cursor: pointer;
 }
 .date{
   flex: 1;

@@ -137,6 +137,11 @@ export default function PassengerDropdown() {
                     <option value="10">10</option>
                     <option value="11">11</option>
                     <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
                   </select>
                 </div>
                 <div className="below">
@@ -154,9 +159,14 @@ export default function PassengerDropdown() {
                 ? "1 adult"
                 : `${adults} adults`}
             </div>
-            <button className="doneButton" onClick={()=>{setOpen(false);setClicked(false);}}
+            <button className="doneButton" onClick={()=>{
+              if(canClick){
+                setOpen(false);setClicked(false);
+              }
+            }}
               style={{
                 backgroundColor:canClick?"#006ce4":"rgb(162,162,162)",
+                color:"white"
               }}
               > Done</button>
           </div>

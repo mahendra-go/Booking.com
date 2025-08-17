@@ -26,9 +26,15 @@ export default function TripInfo2() {
           removeComponent={() => removeComponent(id)} 
         />
       ))}
-      <button className='addFlight' onClick={addComponent}>
+      <div className='btns'>
+        <button className='addFlight' onClick={addComponent}>
         Add a flight
       </button>
+      <button className='search' >
+        Search
+      </button>
+      </div>
+      
     </>
   );
 }

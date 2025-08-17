@@ -8,18 +8,22 @@
 /* Button Styles */
 .dropdown-button {
   width: 100%;
+  /* opacity: 0; */
   padding: 12px 16px;
   background: #ffffff;
   border: none;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   font-size: 16px;
   text-align: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); */
   transition: all 0.3s ease;
+  background: transparent;
+  border: none;
+  color: inherit; /* Optional: inherits text color from parent */
 }
 
 .dropdown-button:hover {
