@@ -1,7 +1,7 @@
 import React from "react";
 import "../Stylings/InfoCard.css";
 import CustomDropdown from "./CustomDropdown";
-import DatePicker from "./Datepicker";
+import DatePicker from "./DatePicker";
 import departure from '../assets/departure.svg'
 import arrival from '../assets/arrival.svg'
 import doubleArrow from '../assets/doublearrows.svg'
